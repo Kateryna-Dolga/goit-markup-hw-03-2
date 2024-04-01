@@ -145,14 +145,25 @@ gap: 24px;
 }
 
 .visually-hidden{
-    overflow: hidden;
+
+     position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+    /*overflow: hidden;
     display: none;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2e2f42;
+color: #2e2f42;*/
 }
 
 
@@ -284,7 +295,9 @@ margin-bottom: 72px;
 
 .our-portfolio-li li{
     border: 1px solid #e7e9fc;
-    width: calc((100% - 48px) / 3);
+    width: Calc((100% - 48px) / 3);
+    padding-left: 0;
+        margin: 0;
 
 background: #fff;
 }
