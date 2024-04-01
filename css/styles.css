@@ -219,7 +219,7 @@ text-transform: capitalize;
 padding: 120px 0 120px 0;
 }
 
-.our-portfolio-htwo h2{
+.our-portfolio-htwo{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -230,14 +230,14 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
 
-.our-portfolio-ul ul{
+.our-portfolio-ul{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
-.our-portfolio-hthree h3{
+.our-portfolio-hthree{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -246,7 +246,7 @@ margin-bottom: 72px;
         text-transform: capitalize;
 }
 
-.our-portfolio-p p{
+.our-portfolio-p{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -254,7 +254,7 @@ margin-bottom: 72px;
         color: #434455;
 }
 
-li .our-portfolio-li{
+.our-portfolio-li{
     border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
 
