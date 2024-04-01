@@ -4,7 +4,9 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
-
+img{
+    display: block;
+}
 /*-----------------header-------------------------------------------------------------*/
 
 
@@ -213,6 +215,9 @@ text-transform: capitalize;
 
 
 /*------------------section fourth-----------------------------------*/
+.section_fourth{
+padding: 120px 0 120px 0;
+}
 .our-portfolio-htwo{
 font-weight: 700;
 font-size: 36px;
@@ -221,6 +226,14 @@ text-transform: capitalize;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.our-portfolio-ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .our-portfolio-hthree{
@@ -242,6 +255,7 @@ color: #2e2f42;
 
 .our-portfolio-li{
     border: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3);
 
 background: #fff;
 }
@@ -251,7 +265,7 @@ background: #fff;
 /*------------------footer-----------------------------------*/
 .footer{
     background: #2e2f42;
-  
+padding: 100px 0;
 }
 
 .footer-logo{
@@ -262,7 +276,8 @@ background: #fff;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-studio{
@@ -275,6 +290,6 @@ background: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-   
+max-width: 264px
 }
 /*------------------/footer-----------------------------------*/
