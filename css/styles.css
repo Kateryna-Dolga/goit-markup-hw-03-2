@@ -40,6 +40,10 @@ h6 {
 span {
     margin: 0;
 }
+.container{
+    width: 1158px;
+        margin: 0 auto;
+}
 /*-----------------header------------------------------------------------------------*/
 
 .header{
@@ -141,11 +145,13 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
+margin: 0 auto;
 
 }
 
 
 .order-service{
+    margin: 0 auto;
 font-family: "Roboto", sans-serif;
 justify-content: flex-start;
 display: block;
@@ -266,16 +272,15 @@ margin-bottom: 72px;
     display: flex;
     gap: 24px;
 }
-.section-three-li{
+li .section-three-li{
 width: calc((100% - 72px) / 4);
-        justify-content: center;
-        border-radius: 0px 0px 4px 4px;
+       
+}
 
-    
-          
-         
-            
-            background: #fff;
+.section-three-li {
+justify-content: center;
+    border-radius: 0px 0px 4px 4px;
+    background: #fff;
 }
 
 .three{
@@ -351,7 +356,7 @@ margin-bottom: 72px;
         color: #434455;
 }
 
-.our-portfolio-li{
+li .our-portfolio-li{
     border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
     padding-left: 0;
