@@ -77,6 +77,7 @@ margin-right: 76px
 }
 .header-menu-li{
     padding: 24px 0;
+
 }
 
 .header-menu-a{
@@ -113,6 +114,12 @@ color: #404bbf;
 .address{
     font-style: normal;
 }
+
+.address-ul{
+    display: flex;
+    gap: 40px;
+}
+
 .header-nav{
     display: flex;
     align-items: center;
