@@ -218,7 +218,8 @@ text-transform: capitalize;
 .section-fourth{
 padding: 120px 0 120px 0;
 }
-h2 .our-portfolio-htwo{
+
+.our-portfolio-htwo h2{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -229,14 +230,14 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
 
-ul .our-portfolio-ul{
+.our-portfolio-ul ul{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
-h3 .our-portfolio-hthree{
+.our-portfolio-hthree h3{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -245,7 +246,7 @@ h3 .our-portfolio-hthree{
         text-transform: capitalize;
 }
 
-p .our-portfolio-p{
+.our-portfolio-p p{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
