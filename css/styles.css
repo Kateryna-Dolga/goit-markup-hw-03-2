@@ -222,6 +222,7 @@ padding: 120px 0 120px 0;
 .four{
 border: 1px solid #e7e9fc;
 padding: 32px 16px;
+border-top: none;
 }
 .our-portfolio-htwo{
 font-weight: 700;
@@ -259,7 +260,7 @@ margin-bottom: 72px;
         color: #434455;
 }
 
-.our-portfolio-li{
+.our-portfolio-li li{
     border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
 
