@@ -126,7 +126,7 @@ background-color: #404BBF;
 /*------------------/section one-----------------------------------*/
 
 /*------------------section two-----------------------------------*/
-.visually-hidden{
+.visually-hidden h2{
     overflow: hidden;
     display: none;
     font-weight: 700;
