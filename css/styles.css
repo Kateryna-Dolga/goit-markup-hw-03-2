@@ -133,7 +133,17 @@ background-color: #404BBF;
 /*------------------/section one-----------------------------------*/
 
 /*------------------section two-----------------------------------*/
-.visually-hidden h2{
+
+.section-two{
+    padding: 120px 0;
+}
+
+.section-two-ul{
+    display: flex;
+gap: 24px;
+}
+
+.visually-hidden{
     overflow: hidden;
     display: none;
     font-weight: 700;
@@ -151,6 +161,7 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-two-p{
@@ -164,6 +175,7 @@ color: #2e2f42;
 
 .section-two-li{
     list-style: none;
+    width: calc((100% - 72px) / 4);
 }
 
 /*------------------/section two-----------------------------------*/
