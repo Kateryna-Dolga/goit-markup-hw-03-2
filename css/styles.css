@@ -241,7 +241,7 @@ width: calc((100% - 72px) / 4);
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        
+        margin-bottom: 8px
 }
 
 .section-three-p{
