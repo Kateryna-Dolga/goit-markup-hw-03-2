@@ -126,7 +126,9 @@ background-color: #404BBF;
 /*------------------/section one-----------------------------------*/
 
 /*------------------section two-----------------------------------*/
-.section-two-htwo{
+.visually-hidden{
+    overflow: hidden;
+    display: none;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
